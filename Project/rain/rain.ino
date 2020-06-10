@@ -1,10 +1,11 @@
 #include "LiquidCrystal_I2C.h"
+#define sensorPin A1
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup() 
 {
-    Serial.begin(9600);
+  Serial.begin(9600);
   lcd.init();
   lcd.backlight();
 
@@ -15,6 +16,7 @@ void setup()
   lcd.print("Hi");
 
   delay(2000);
+  pinMode(sensorPin, INPUT);
 }
 void loop() 
 {
