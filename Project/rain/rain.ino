@@ -1,5 +1,5 @@
 #include "LiquidCrystal_I2C.h"
-#define sensorPin A1
+#define sensorPin A0
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
@@ -22,7 +22,7 @@ void loop()
 {
   lcd.setCursor(0, 0);
   lcd.print("rain?");
- int sensorValue = analogRead(A1);
+ int sensorValue = analogRead(A0);
  if(sensorValue>=500)
  {
   lcd.setCursor(0, 1);
