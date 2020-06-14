@@ -4,8 +4,13 @@
 บุคคลทั่วไปที่ต้องการระบบการรดนำ้อัตโนมัติสำหรับพืชผักสวนครัวและไม้ประดับในบริเวณบ้านเพื่อหย่นและประหยัดระยะเวลาในการดูแล
 # รายละเอียดโปรเจค
 Perception Module
+
 -snow/rain detection senser
+
 -Soil Moisture Sensor
+
 -Motor Driver
+
 -Pump
+
 -LCD Display+I2C Interface
