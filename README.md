@@ -29,11 +29,8 @@
 -LCD Display+I2C Interface
 
 ## โครงสร้าง
-![Untitled Diagram](https://user-images.githubusercontent.com/61378901/84599228-b39f9c80-ae9a-11ea-8ae4-5a281d44efce.jpg)
 
-![Untitled Diagram (1)](https://user-images.githubusercontent.com/61378901/84599311-3fb1c400-ae9b-11ea-819d-7bbd0a1fcade.jpg)
-
-![Untitled Diagram (2)](https://user-images.githubusercontent.com/61378901/84599324-696aeb00-ae9b-11ea-8828-04558f2077b5.jpg)
+![Control structure ](https://user-images.githubusercontent.com/61378901/84681111-df378b00-af5d-11ea-91f0-538ff85f0796.jpg)
 
 ## ระบบการทำงาน
 
