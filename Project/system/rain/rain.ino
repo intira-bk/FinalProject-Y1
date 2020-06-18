@@ -10,9 +10,6 @@ void setup()
   lcd.backlight();
 
   lcd.setCursor(0, 0);
-  lcd.print("rain?");
-  
-  lcd.setCursor(0, 1);
   lcd.print("Hi");
 
   delay(2000);
