@@ -31,7 +31,7 @@ void loop()
 
     if (soil >=500)//มากกว่าคือแห้ง
     {
-    analogWrite (ena,175);
+    analogWrite (ena,200);
     digitalWrite (in1,LOW);
     digitalWrite (in2,HIGH);
     lcd.setCursor(0, 0);
@@ -55,6 +55,7 @@ void loop()
     }
     lcd.setCursor(0, 0);
     lcd.print("rain?");
+    
     if(rain>=500)//มากกว่าคือแห้ง
     {
         
